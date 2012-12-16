@@ -11,9 +11,8 @@ a {
 
 .header {
   overflow: auto;
-  padding: 10px 10px 5px 10px;
+  padding: 10px 10px 8px 10px;
   border-bottom: 1px solid #cecece;
-  margin-bottom: 10px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -22,7 +21,7 @@ a {
 
 .brand .image {
   margin-right: 13px;
-  margin-top: 2px;
+  margin-top: 4px;
   margin-bottom: 5px;
   height: 72px;
   border: 1px solid #cecece;
@@ -39,16 +38,17 @@ a {
 }
 
 .social-networks {
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .sn-icon img{
   width: 25px;
+  padding-right: 4px;
 }
 
 .content {
   padding: 0 10px 10px 10px;
-  margin-top: 110px;
+  margin-top: 115px;
 }
 
 .clear-fix {
