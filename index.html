@@ -3,6 +3,15 @@ layout: default
 title: stevendavie
 ---
 
+<ul class='posts unstyled'>
+{% for post in site.posts %}
+  <li>
+    <p>{{post.content}}</p>
+  </li>
+  <li class="post-separator"></li>
+{% endfor %}
+</ul>
+
 
 
 
