@@ -6,7 +6,7 @@
     <meta name="description" content="Personal Website of Steven Davie">
     <meta name="author" content="Steven Davie">
 
-    <title>Jekyll Setup Part 2</title>
+    <title>Ember.js - inital thoughts</title>
 
     <link rel="stylesheet" href="/css/styles.css">
   </head>
@@ -43,18 +43,49 @@
 
     <div class="content">
         <div class="post">
-  <h4 class="post-title"><a href="/tech/2012/12/17/second-post.html">Jekyll Setup Part 2</a></h4>
+  <h4 class="post-title"><a href="/tech/2012/12/17/second-post.html">Ember.js - inital thoughts</a></h4>
   <p class="post-info">
     <span class="category">tech</span>
     <span class="date">December 17, 2012</span>
   </p>
 
   <div class="post-content">
-    <p>Second Post!</p>
+    <p>
+      I started using <a href="http://www.emberjs.com" target="_blank" class="inline-link">ember.js</a> for a couple different projects recently and I'm not exactly sure how I feel about it.  On one hand, it's AWESOME!  On the other hand, it seems needlessly complicated and is such a paradigm shift from traditional front-end development that it makes it difficult to get anything done (the first time).
+    </p>
 
-    <p>This second paragraph serves an important purpose (again).</p>
+    <p class="section-title">
+      Documentation
+    </p>
 
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    <p>
+      The ember team does a great job getting documentation onto the website, however, it doesn't seem to be structured in a way that makes it easy to find information.  Sure, at first glance it looks wonderful!  But, as soon as you get past the most basic of examples and into the meat of a real application, the details go sparse.  I've had to rely heavily on google and links to <a href="http://stackoverflow.com/search?q=emberjs" target="blank" class="inline-link">stackoverflow</a>.  I'll except this is due to the framework's heavily opiniated ways (which I like btw).
+    </p>
+
+    <p class="section-title">
+      Templating
+    </p>
+
+    <p>
+      Out of the box, ember uses <a href="http://handlebarsjs.com/" target="_blank" class="inline-link">handlebars.js</a> for templating.  This is great, because I LOVE handlebars!  What's not great, is that it seems to disrupt everything I thought I knew about handlebars.  You can't just go write a handlebar helper like you used to.  Now, you need to know that ember passes a <a href="http://stackoverflow.com/questions/12184696/handlebars-helpers-in-ember-js" target="_blank" class="inline-link">context variable that must be interrogated within the helper</a>. Oh, yes, it is easy -- once you know there is this a context!
+    </p>
+
+    <p class="section-title">
+      Boilerplate
+    </p>
+
+    <p>
+      The advantage of ember over other frameworks is that it's supposed to reduce the amount of boilerplate code to handle tasks that are common across most (if not all) applications.  In this regard, ember does an excellent job.  Once you get the framework up and running and have your <strong>V</strong> plugged into your <strong>C</strong> and your <strong>C</strong> plugged into your <strong>M</strong>, buidling out an applicaiton becomes relatively simple and separation of responsibility is barely a consideration for the developer.
+    </p>
+
+    <p class="section-title">
+      Overall
+    </p>
+
+    <p>
+      Overall, I don't hate it.  I think I actually like it.  I'm going to keep plugging away on it and see how it goes.  Who knows, it might just be me that's needlessly complicated.
+    </p>
+
   </div>
 </div>
 
